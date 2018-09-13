@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    text-align: center;
+    padding-top: 10px;
+}
+
+nav.navigation {
+    text-align: right;
+    margin-bottom: 8px;
+    padding-right: 18px;
+}
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    text-transform: capitalize;
+    color: darkblue;
+    font-family: sans-serif;
+}
+
+nav.navigation a:hover{
+    background-color: darkblue;
+    color: white;
+}
+
+.slider {
+    width: 100vw;
+    overflow: hidden;
+    text-align: center;
+}
+
+.slider img {
+    width: 100%
+}
+.products {
+    width: 100vw;
+    overflow: hidden;
+}
+
+.products h3 {
+    text-align: center;
+}
+
+.products ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0px 10px;
+}
+
+.products ul li {
+     list-style: none;
+     width: 25%;
+}
+
+.products ul li article {
+    padding: 10px;
+}
+
+.products ul li article img {
+    width: 100%
+}
+
+.feature {
+    width: 100vw;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.feature h3 {
+    text-align: center;
+}
+
+.feature ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0px 10px;
+}
+
+.feature ul li {
+    list-style: none;
+    width: 33.33%;
+}
+
+.feature ul li article {
+    padding: 10px;
+    height: 180px;
+    position: relative;
+}
+
+.feature ul li article img {
+    width: 100%;
+}
+
+.feature ul li article h4 {
+    position: absolute;
+    top: 25%;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 200%;
+    text-shadow: black 0px 0px 50px;
+}
+
+.footer {
+    padding: 30px;
+    background-color: lightgray;
+}
+
+.footer ul li {
+    list-style: none;
+}
+
+.footer nav a {
+    display: block;
+    text-align: left;
+    width: 25%;
+    padding: 5px 0px;
+}
