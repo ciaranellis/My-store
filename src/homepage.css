@@ -1,31 +1,3 @@
-body {
-    margin: 0;
-    padding: 0;
-}
-header {
-    text-align: center;
-    padding-top: 10px;
-}
-
-nav.navigation {
-    text-align: right;
-    margin-bottom: 8px;
-    padding-right: 18px;
-}
-
-nav a {
-    text-decoration: none;
-    display: inline-block;
-    padding: 10px;
-    text-transform: capitalize;
-    color: darkblue;
-    font-family: sans-serif;
-}
-
-nav.navigation a:hover{
-    background-color: darkblue;
-    color: white;
-}
 
 .slider {
     width: 100vw;
@@ -50,11 +22,12 @@ nav.navigation a:hover{
     display: flex;
     margin: 0;
     padding: 0px 10px;
+    flex-direction: column;
 }
 
 .products ul li {
      list-style: none;
-     width: 25%;
+     width: 100%;
 }
 
 .products ul li article {
@@ -63,6 +36,24 @@ nav.navigation a:hover{
 
 .products ul li article img {
     width: 100%
+}
+
+@media only screen and (min-width:768px) {
+    .products ul {
+        flex-direction: row; 
+        flex-wrap: wrap;
+    }
+    
+    .products ul li {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+   .products ul li {
+     list-style: none;
+     width: 25%;
+    } 
 }
 
 .feature {
@@ -80,16 +71,17 @@ nav.navigation a:hover{
     display: flex;
     margin: 0;
     padding: 0px 10px;
+    flex-direction: column;
 }
 
 .feature ul li {
     list-style: none;
-    width: 33.33%;
+    width: 100%;
 }
 
 .feature ul li article {
     padding: 10px;
-    height: 180px;
+    height: 140px;
     position: relative;
 }
 
@@ -99,26 +91,26 @@ nav.navigation a:hover{
 
 .feature ul li article h4 {
     position: absolute;
-    top: 25%;
-    color: white;
     width: 100%;
+    font-size: 28px;
+    color: white;
+    font-family: sans-serif;
+    top: 25%;
     text-align: center;
     font-size: 200%;
     text-shadow: black 0px 0px 50px;
 }
 
-.footer {
-    padding: 30px;
-    background-color: lightgray;
+
+@media only screen and (min-width:768px) {
+    .feature ul {
+        flex-direction: row;
+    }
 }
 
-.footer ul li {
-    list-style: none;
-}
-
-.footer nav a {
-    display: block;
-    text-align: left;
-    width: 25%;
-    padding: 5px 0px;
+@media only screen and (min-width:1024px) {
+   .feature ul li {
+     list-style: none;
+     width: 33.3%;
+    } 
 }
