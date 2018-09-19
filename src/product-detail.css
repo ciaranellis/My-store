@@ -5,6 +5,8 @@
 h1.product-title {
     font-size: 18px;
     font-weight: bold;
+    padding: 0px;
+    margin: 0px;
 }
 
 .productimage {
