@@ -2,7 +2,7 @@
     padding: 0px 30px;
 }
 
-.article div h1 product-title {
+.article product-title {
     font-size: 18px;
     font-weight: bold;
 }
@@ -21,5 +21,6 @@
 
 .product p {
     padding 0px 30px;
+    line-height: 
 }
 
