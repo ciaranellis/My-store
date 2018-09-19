@@ -21,8 +21,8 @@ h1.product-title {
     width: 100%;
 }
 
-.product p {
-    padding 0px 30px;
+.product-price {
+    margin-bottom: 0px;
     line-height: 0px;
 }
 
