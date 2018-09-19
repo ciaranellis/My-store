@@ -2,7 +2,7 @@
     padding: 0px 30px;
 }
 
-.article product-title {
+h1.product-title {
     font-size: 18px;
     font-weight: bold;
 }
