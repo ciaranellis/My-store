@@ -2,8 +2,9 @@
     padding: 0px 30px;
 }
 
-.producttitle {
-    font-family: sans-serif;
+.article div h1 product-title {
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .productimage {
