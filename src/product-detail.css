@@ -1,5 +1,10 @@
 .name {
-    padding: 0px 30px;
+    padding: 0px 30px 20px 30px;
+    font-size: 12px;
+}
+
+.name a {
+    text-decoration: none;
 }
 
 h1.product-title {
@@ -7,14 +12,19 @@ h1.product-title {
     font-weight: bold;
     padding: 0px;
     margin: 0px;
+    text-transform: capitalize;
 }
 
 .productimage {
     padding: 0px 0px;
 }
 
-.article{
-    padding: 0px 30px;
+.product-heading {
+    margin-bottom: 30px;
+}
+
+.article {
+    padding: 0px 30px 30px 30px;
 }
 
 .productimage img {
@@ -23,6 +33,42 @@ h1.product-title {
 
 .product-price {
     margin-bottom: 0px;
-    line-height: 16px;
+    line-height: 0px;
 }
 
+.product-heading-desktop {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .article {
+        flex-direction: row;
+        flex-wrap: wrap;
+        display: flex;
+    }
+
+    .productimage {
+        width: 50%;
+    }
+
+    .product-info {
+        width: 50%;
+    }
+
+    .product-heading-mobile {
+        display: none;
+    }
+
+    .product-heading-desktop {
+        display: block;
+    }
+
+    .product-info-content {
+        padding: 0px 30px;
+    }
+}
+
+.basket-button:hover {
+    background-color: darkblue;
+    color: white;
+}

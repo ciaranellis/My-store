@@ -6,6 +6,14 @@
     <title>5 8th CLOTHING/Products</title>
     <link rel="stylesheet" href="global.css">
     <link rel="stylesheet" href="product-detail.css">
+    
+    
+    <script type="application/javascript">
+        mybasketfunction =function(){
+            alert('added to basket')
+        }
+    </script>
+    
 </head>
 </html>
 
@@ -27,29 +35,50 @@
     <!-- nave end -->
     
     <section class="name">
-        <p>Gym Shark</p>
+        <a href="/">Home</a> / <a href="products.html">Products</a>
     </section>
     
     <article class="article">
-        <div>
+        
+        <div class="product-heading product-heading-mobile">
+            
             <h1 class="product-title">product title</h1>
+            
             <p class="product-price">£20</p>
         </div>
         
-    <section class="productimage">
+        <section class="productimage">
+            
             <img src="img/gym%20shark%201.jpg"/>
+            
         </section>
         
-     <section>
-        <div>
-            <h1 class="product-title">product title</h1>
-            <p class="product-price">£20</p>
-        </div>
-         <div>
-            <p>this is a description of the product ......wgggferhfhff ehff </p>
-         </div>
-     </section>
-        
+         <section class="product-info">
+             <div class="product-info-content">
+                 
+                <div class="product-heading product-heading-desktop">
+                    
+                    <h1 class="product-title">product title</h1>
+                    
+                    <p class="product-price">£20</p>
+                    
+                </div>
+                 
+                 <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at metus eget tortor euismod convallis. Maecenas eu dolor nulla. Integer tempor sagittis pretium. Cras nec lorem mauris. Proin ac dictum ipsum. In volutpat lacinia elit id iaculis. Sed id tempus felis. In in varius leo, ac pellentesque diam. Pellentesque dignissim in enim id euismod. Proin sodales lectus vitae bibendum euismod. Ut imperdiet nisi vel ligula dignissim vehicula. Duis finibus molestie risus, ac cursus turpis malesuada vel. Duis nulla elit, ultrices id mauris eget, imperdiet maximus neque.</p>
+                 </div>
+                 
+                 <div>
+                      <button onclick="mybasketfunction()" class="btn basket-button">
+                         Add To Basket
+                     </button>
+                     
+                 </div>
+                 
+             </div>
+             
+         </section>
+
     </article>
     
        <!-- footer on every page -->
